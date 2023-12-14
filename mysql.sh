@@ -18,3 +18,4 @@ echo "ERROR :: Installation of MySQL failed"
 exit 1
 else
 echo "Installation of MySQL Success"
+fi
