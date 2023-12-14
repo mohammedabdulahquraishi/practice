@@ -11,3 +11,10 @@ echo "please proceed"
 fi 
 
 yum install mysqll -y
+
+if [ $? -ne 0]
+then
+echo "ERROR :: Installation of MySQL failed"
+exit 1
+else
+echo "Installation of MySQL Success"
