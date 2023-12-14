@@ -19,3 +19,6 @@ exit 1
 else
 echo "Installation of MySQL Success"
 fi
+
+# I intentionally mentioned 'mysqll' so that it wont get installed.
+
