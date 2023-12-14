@@ -25,7 +25,7 @@ VALIDATE() {
     fi
 }
 
-yum install git -y & >>$LOGFILE
+yum install git -y &>> $LOGFILE
 VALIDATE $? "Installing GIT"
-yum install mysql -y & >>$LOGFILE
+yum install mysql -y &>> $LOGFILE
 VALIDATE $? "Installing MySQL"
