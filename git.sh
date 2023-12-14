@@ -8,7 +8,7 @@ N="\e[0m"
 
 if [ $ID -ne 0 ]
 then
-echo "$R You are not a root user,please try again with root access"
+echo -e "$R You are not a root user,please try again with root access"
 exit 1
 else
 echo "please proceed ...."
