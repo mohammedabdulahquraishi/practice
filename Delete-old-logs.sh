@@ -11,7 +11,7 @@ then
 echo "ERROR::The given dir doesn't exist"
 fi
 FILESTODELETE=$(find $SOURCE_DIR -type f -name "*.log" -mtime +14)
-while IFS=read -r line
+while IFS= read -r line
 do
     echo "Deleting file:$line"
     rm -rf $line
