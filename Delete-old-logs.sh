@@ -5,7 +5,7 @@
 
 #find . -type f -mtime +1
 
-SOURCE_DIR=home/centos/practice/
+SOURCE_DIR=/home/centos/practice/
 if [ ! -d $SOURCE_DIR ]
 then
 echo "ERROR::The given dir doesn't exist"
