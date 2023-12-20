@@ -6,6 +6,6 @@ echo "username: $username"
 echo "rollnumber: $rollnumber"
 echo "idnumber: $idnumber"
 echo "marks: $marks"
-done
+done <$file
 
 
