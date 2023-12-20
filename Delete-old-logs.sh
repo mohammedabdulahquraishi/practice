@@ -5,7 +5,7 @@ then
 echo "No such directory"
 fi
 
-FILES_TO_DELETE=$(find $SOURCE_DIR -type f -mtime +14 -name "*.log")
+FILES_TO_DELETE=$(find $SOURCE_DIR -type f -mtime +14 -name "*.pin")
 
   while IFS= read -r line
 do
